@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaisyUI</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h2>Introduct to DaisyUI</h2>
+    <button class="btn">Buy Now</button>
+    <button class="btn btn-warning">Buy Now</button>
+
+    <!-- accroding section -->
+    <section>
+       <div class="join join-vertical w-full">
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" checked="checked" /> 
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" /> 
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" /> 
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- loading -->
+    <span class="loading loading-spinner loading-md"></span>
+
+    <section class="py-12 bg-amber-300">
+        <div>
+            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card-body">
+                  <img src="img/Rectangle 5.png" alt="">
+
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- slider or carousol -->
+
+<section class="w-96 mx-auto h-96">
+  <div class="carousel w-full">
+    <div id="item1" class="carousel-item w-full">
+      <img src="img/action.png"  class="w-100%" />
+    </div> 
+    <div id="item2" class="carousel-item w-full">
+      <img src="img/airpod.png"  class="w-100%" />
+
+    </div> 
+    <div id="item3" class="carousel-item w-full">
+      <img src="img/camera.png"  class="w-100%" />
+
+    </div> 
+    <div id="item4" class="carousel-item w-full">
+      <img src="img/mic.png" class="w-100%" />
+
+    </div>
+  </div> 
+  <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" class="btn btn-xs">1</a> 
+    <a href="#item2" class="btn btn-xs">2</a> 
+    <a href="#item3" class="btn btn-xs">3</a> 
+    <a href="#item4" class="btn btn-xs">4</a>
+  </div>
+</section>
+</body>
+</html>
